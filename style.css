@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--light-gray);
+}
+
+.container {
+    margin: auto;
+    width: 30vh;
+    padding: 8vh;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 30vh;
+}
+
+.container1 h3 {
+    color: var(--cyan);
+}
+
+.container1 h4 {
+    color: var(--bright-yellow);
+}
+
+.container1 p {
+    color: var(--grayish-blue);
+}
+
+.container2 {
+    padding: 25px;
+    color: #fff;
+    background-color: var(--cyan);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30vh;
+}
+
+.center {
+    display: flex;
+    gap: 10px;
+}
+
+.center strong {
+    color: #fff;
+}
+
+.center p {
+    align-self: center;
+    color: var(--grayish-blue);
+}
+
+.container2 strong {
+    font-size: 30px;
+}
+
+button{
+    background-color: var(--bright-yellow);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 25vh;
+    height: 35px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.container3 {
+    padding: 25px;
+    color: #fff;
+    background-color: rgb(85, 218, 218);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 30vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 1024px){
+    .container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .container1 {
+        width: 60vh;
+        padding: 35px;
+    }
+    .desktopRow {
+        display: flex;
+        flex-direction: row;
+    }
+    .container2 {
+        border-bottom-left-radius: 10px;
+    }
+    .container3 {
+        border-bottom-left-radius: 0px;
+    }
+}
