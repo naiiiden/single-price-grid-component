@@ -24,8 +24,9 @@ body {
 }
 
 .container {
-    margin: auto;
     width: 90%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
     height: auto;
     display:flex;
     flex-direction: column;
@@ -41,7 +42,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    width: 85%;
 }
 
 .container1 h3 {
@@ -56,6 +56,10 @@ body {
     color: var(--grayish-blue);
 }
 
+.desktopRow {
+    width: 100%;
+}
+
 .container2 {
     padding: 25px;
     color: #fff;
@@ -63,7 +67,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 100%;
 }
 
 .center {
@@ -101,7 +104,6 @@ button{
     display: flex;
     flex-direction: column;
     gap: 25px;
-    width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -109,25 +111,28 @@ button{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
     .container {
-        max-width: 29.5vw;
+        width: 0;
         margin: auto;
         display: flex;
         flex-direction: column;
     }
     .container1 {
-        width: 29.3vw;
+        width: 35rem;
         padding: 35px;
     }
     .desktopRow {
+        width: 35rem;
         display: flex;
         flex-direction: row;
     }
     .container2 {
+        width: 17.5rem;
         border-bottom-left-radius: 10px;
     }
     .container3 {
+        width: 17.5rem;
         border-bottom-left-radius: 0px;
     }
 }
