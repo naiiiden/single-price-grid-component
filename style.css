@@ -45,15 +45,15 @@ body {
 }
 
 .container1 h1 {
-    color: var(--cyan);
+    color: #1E807E;
 }
 
 .container1 h2 {
-    color: var(--bright-yellow);
+    color: #687C13;
 }
 
 .container1 p {
-    color: var(--grayish-blue);
+    color: #4A5873
 }
 
 .desktopRow {
