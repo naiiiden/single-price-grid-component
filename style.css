@@ -44,11 +44,11 @@ body {
     gap: 25px;
 }
 
-.container1 h3 {
+.container1 h1 {
     color: var(--cyan);
 }
 
-.container1 h4 {
+.container1 h2 {
     color: var(--bright-yellow);
 }
 
