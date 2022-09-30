@@ -63,7 +63,7 @@ body {
 .container2 {
     padding: 25px;
     color: #fff;
-    background-color: var(--cyan);
+    background-color: #1E807E;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -80,7 +80,7 @@ body {
 
 .center p {
     align-self: center;
-    color: var(--grayish-blue);
+    color: #FAFAFA;
 }
 
 .container2 strong {
@@ -89,7 +89,7 @@ body {
 
 button{
     background-color: var(--bright-yellow);
-    color: #fff;
+    color: #595959;
     border: none;
     border-radius: 5px;
     width: 25vh;
